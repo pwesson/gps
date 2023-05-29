@@ -27,7 +27,7 @@ uBlox_PAM_7Q::uBlox_PAM_7Q(){
   gpsstatus = 'v';
 }
 
-uBlox_PAM_7Q::setSerial(HardwareSerial *serialPort){
+void uBlox_PAM_7Q::setSerial(HardwareSerial *serialPort){
 
   // Set Serial port
   gpsSerial = serialPort;

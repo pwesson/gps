@@ -27,7 +27,7 @@ EverMoreSA320::EverMoreSA320(){
   gpsstatus = 'v';
 }
 
-EverMoreSA320::setSerial(HardwareSerial *serialPort){
+void EverMoreSA320::setSerial(HardwareSerial *serialPort){
 
   // Set Serial port
   gpsSerial = serialPort;

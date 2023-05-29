@@ -28,7 +28,7 @@ uBlox_NEO_M8N::uBlox_NEO_M8N(){
 
 }
 
-uBlox_NEO_M8N::setSerial(HardwareSerial *serialPort){
+void uBlox_NEO_M8N::setSerial(HardwareSerial *serialPort){
 
   // Set Serial port
   gpsSerial = serialPort;

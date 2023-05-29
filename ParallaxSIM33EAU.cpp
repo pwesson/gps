@@ -27,7 +27,7 @@ ParallaxSIM33EAU::ParallaxSIM33EAU(){
   gpsstatus = 'v';
 }
 
-ParallaxSIM33EAU::setSerial(HardwareSerial *serialPort){
+void ParallaxSIM33EAU::setSerial(HardwareSerial *serialPort){
 
   gpsSerial = serialPort;
 

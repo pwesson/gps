@@ -27,7 +27,7 @@ ParallaxPMB648::ParallaxPMB648(){
   gpsstatus = 'v';
 }
 
-ParallaxPMB648::setSerial(HardwareSerial *serialPort){
+void ParallaxPMB648::setSerial(HardwareSerial *serialPort){
 
   // Set Serial port
   gpsSerial = serialPort;

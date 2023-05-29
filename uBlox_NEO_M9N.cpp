@@ -27,7 +27,7 @@ uBlox_NEO_M9N::uBlox_NEO_M9N(){
   gpsstatus = 'v';
 }
 
-uBlox_NEO_M9N::setSerial(HardwareSerial *serialPort){
+void uBlox_NEO_M9N::setSerial(HardwareSerial *serialPort){
 
   // Set Serial port
   gpsSerial = serialPort;

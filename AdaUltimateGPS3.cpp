@@ -27,7 +27,7 @@ AdaUltimateGPS3::AdaUltimateGPS3(){
   gpsstatus = 'v';
 }
 
-AdaUltimateGPS3::setSerial(HardwareSerial *serialPort){
+void AdaUltimateGPS3::setSerial(HardwareSerial *serialPort){
 
   // Set Serial ports
   gpsSerial = serialPort;
